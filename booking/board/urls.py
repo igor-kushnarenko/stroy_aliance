@@ -26,6 +26,5 @@ urlpatterns = [
     path('rate/update/<int:pk>', views.RateUpdateView.as_view()),
     path('rate/all', views.RateListViewSet.as_view()),
     path('rate/new', views.RateCreateView.as_view()),
-
     path('visit/all', views.VisitListView.as_view()),
 ]
